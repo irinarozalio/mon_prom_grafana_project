@@ -52,7 +52,7 @@ def main():
 	pprint ("The Prometheus Retention in hours is " + args.prometheus_ret_hour)
 	pprint ("The Grafana version is " + args.grafana_version)
 	start_time = time.time()
-	# setup_logger('log','/home/ira/grafana_project/logs/prom_graf.txt')
+	# setup_logger('log','/home/ira/mon_prom_grafana_project/logs/prom_graf.txt')
 	# log = logging.getLogger('log')
 	# log.info('Monit_Prom_Graf:')
 
